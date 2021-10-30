@@ -1,0 +1,38 @@
+{
+  "name": "vue3ts",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit --skipLibCheck && vite build",
+    "serve": "vite preview",
+    "lint": "eslint src",
+    "lint-fix": "eslint src --fix --ext .ts,tsx"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "@vitejs/plugin-vue-jsx": "^1.2.0",
+    "cookiejs": "^2.0.1",
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^7.20.0",
+    "prettier": "^2.4.1",
+    "vite": "^2.6.10",
+    "vue": "^3.2.6"
+  },
+  "devDependencies": {
+    "@element-plus/icons": "^0.0.11",
+    "@vitejs/plugin-vue": "^1.6.1",
+    "@vue/compiler-sfc": "^3.2.6",
+    "element-plus": "^1.1.0-beta.24",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "router": "^2.0.0-beta.1",
+    "typescript": "^4.3.2",
+    "vite-plugin-style-import": "^1.2.1",
+    "vue-router": "^4.0.12",
+    "vue-tsc": "^0.2.2",
+    "vuex": "^4.0.2"
+  }
+}
